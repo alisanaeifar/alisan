@@ -1,0 +1,17 @@
+<!-- ko foreach: getRegion('message') -->
+<!-- ko template: getRegion('message') --><!--/ko-->
+<!--/ko-->
+<div class="opc-wrapper">
+    <ol class="opc" id="checkoutSteps">
+        <!-- ko foreach: getRegion('steps') -->
+        <!-- ko template: getTemplate('message') --><!--/ko-->
+        <!--/ko-->
+    </ol>
+</div>
+<!-- ko foreach: getRegion('note') -->
+<!-- ko template: getTemplate() --><!--/ko-->
+<!--/ko-->
+
+<!-- ko foreach: getRegion('sidebar') -->
+<!-- ko template: getTemplate() --><!--/ko-->
+<!--/ko-->
